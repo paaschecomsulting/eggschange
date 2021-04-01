@@ -383,8 +383,9 @@ function Set-EggschangeUpgradeSettings () {
         SpiritAnimal       = "Gnu"
         EnterpriseEnabled = $false
         SignaturePosition = "guard"
-        KeyserverUploaded = $true
+        UbuntuKeyserverUploaded = $true
         DeveloperFingerprint = "616341b190ef25ce024dd2e9494450ef40d37e5c"
+	DeveloperFingerprintPrefix = "0x"
 
         }
     $ReleaseInfo = New-Object PSObject -Property $Upgradesettings
